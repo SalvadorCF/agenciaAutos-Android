@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Garaje Guinda</string>
+
+    <string name="titulo_agregar">Agregar Autos</string>
+    <string name="titulo_modificar">Modificar Autos</string>
+    <string name="titulo_principal">Garaje Guinda</string>
+    <string name="titulo_reportes">Agencia de Autos</string>
+    <string name="titulo_Registrarse">Registrarse</string>
+
+    <string name="hint_modelo">Modelo</string>
+    <string name="hint_marca">Marca</string>
+    <string name="hint_año">Año</string>
+    <string name="hint_combustible">Combustible</string>
+    <string name="hint_precio">Precio</string>
+    <string name="hint_usuario">Correo electrónico</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellidop">Apellido Paterno</string>
+    <string name="hint_apellidom">Apellido Materno</string>
+    <string name="hint_codigo">Código Opcional</string>
+    <string name="hint_generar">Generar</string>
+
+
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_registrate">Registrarse</string>
+    <string name="btn_generar_reportes">Generar Reporte</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="img_descripcion">Foto</string>
+
+
+    <string name="titulo_bienvenido">Bienvenido</string>
+    <string name="btn_agregar">Agregar</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="btn_reportes">Reportes</string>
+
+
+    <string name="simboloTodos">.*</string>
+    <string name="btn_generarReporte">Generar Reporte</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agregar">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/titulo_agregar"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtModelo"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="22dp"
+        android:autofillHints="@string/hint_modelo"
+        android:ems="10"
+        android:hint="@string/hint_modelo"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="19dp"
+        android:autofillHints="@string/hint_marca"
+        android:ems="10"
+        android:hint="@string/hint_marca"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtModelo"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtAnio"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/hint_año"
+        android:ems="10"
+        android:hint="@string/hint_año"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarca"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtCombustible"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/hint_combustible"
+        android:ems="10"
+        android:hint="@string/hint_combustible"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnio"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="225dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="@string/hint_precio"
+        android:ems="10"
+        android:hint="@string/hint_precio"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCombustible"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnFoto"
+        android:layout_width="260dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/img_descripcion"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecio"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,ImageContrastCheck"
+        tools:src="@android:drawable/ic_menu_gallery"
+        tools:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/rojoOscuro"
+        android:text="@string/btn_registrar"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFoto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

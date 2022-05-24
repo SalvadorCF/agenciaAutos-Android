@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Administrador">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="59dp"
+        android:text="@string/titulo_bienvenido"
+        android:textColor="@color/negro"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="153dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/logo"
+        tools:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/rojoOscuro"
+        app:layout_constraintStart_toEndOf="@+id/btnAgregar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/agregar" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="26dp"
+        android:background="@color/rojoOscuro"
+        app:layout_constraintStart_toEndOf="@+id/btnModificar"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:srcCompat="@drawable/modificar" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/rojoOscuro"
+        app:layout_constraintStart_toEndOf="@+id/btnReportes"
+        app:layout_constraintTop_toBottomOf="@+id/img2"
+        app:srcCompat="@drawable/reportes"
+        tools:srcCompat="@drawable/reportes" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/rojoOscuro"
+        android:text="@string/btn_agregar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btnModificar"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/rojoOscuro"
+        android:text="@string/btn_modificar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregar" />
+
+    <Button
+        android:id="@+id/btnReportes"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/rojoOscuro"
+        android:text="@string/btn_reportes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnModificar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
